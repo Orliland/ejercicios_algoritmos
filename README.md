@@ -21,6 +21,15 @@ Ejercicios Algoritmos
 - JavaScript
 - Jest
 
+## Pasos para agregar nuevo ejercicio:
+
+- Crear carpeta para `sesion/ejercicio`
+- Añadir carpeta al tree del `README.md`
+- Crear archivos `index.js` y `index.test.js`
+- Añadir requerimientos a archivo `index.js`
+- Agregar pruebas a `index.test.js`
+- Desarrollar solución
+
 ---
 
 [Orliland](https://threads.net/Orliland) -

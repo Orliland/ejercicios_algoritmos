@@ -49,6 +49,7 @@ function letraPorNumero(texto) {
   ];
 
   // Convertir texto en array
+  texto = texto.toLowerCase();
   let textoArray = [...texto];
 
   // clean up texto: remover acentos, espacios y caracteres especiales
@@ -78,5 +79,7 @@ function letraPorNumero(texto) {
   // Unir los indices mediante espacios y retornarlos
   return textoArray.join(" ");
 }
+
+console.log(letraPorNumero("Orlando"));
 
 module.exports = letraPorNumero;

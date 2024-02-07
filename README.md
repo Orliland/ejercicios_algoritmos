@@ -10,7 +10,8 @@ La objetivo de cada ejercicio se encuentra dentro del archivo de JavaScript.
 Ejercicios Algoritmos
 ├── sesion-1
 │ ├── elementos-pares
-│ └── isograma
+│ ├── isograma
+│ └── letras-por-numeros
 ├── sesion-2
 ├── sesion-3
 ├── sesion-4

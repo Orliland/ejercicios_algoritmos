@@ -80,6 +80,4 @@ function letraPorNumero(texto) {
   return textoArray.join(" ");
 }
 
-console.log(letraPorNumero("Orlando"));
-
 module.exports = letraPorNumero;

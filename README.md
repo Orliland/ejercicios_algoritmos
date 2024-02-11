@@ -12,7 +12,8 @@ Ejercicios Algoritmos
 │ ├── elementos-pares
 │ ├── isograma
 │ ├── letras-por-numeros
-│ └── string-termina-con
+│ ├── string-termina-con
+│ └── transformador
 ├── sesion-2
 ├── sesion-3
 ├── sesion-4

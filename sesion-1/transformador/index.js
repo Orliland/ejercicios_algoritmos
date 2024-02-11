@@ -27,7 +27,14 @@ Devuelve:
 */
 
 function transformador(data) {
-  return [];
+  let users = [];
+  for (let i = 0; i < data.nombres.length; i++) {
+    const user = { id: i + 1 };
+    user.nombre = data.nombres[i];
+    user.edad = data.edades[i];
+    users = [...users, user];
+  }
+  return users;
 }
 
 module.exports = transformador;

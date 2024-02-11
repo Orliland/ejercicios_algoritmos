@@ -2,11 +2,11 @@ const transformador = require("./index");
 
 test("Debería transforma el objeto input a output", () => {
   expect(
-    transformer({
+    transformador({
       nombres: ["Juan", "Pedro", "María"],
       edades: [23, 45, 18],
     })
-  ).toBe([
+  ).toStrictEqual([
     {
       id: 1,
       nombre: "Juan",
